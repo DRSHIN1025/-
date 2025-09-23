@@ -81,3 +81,9 @@ NetHood
 PrintHood
 Recent
 SendTo
+
+# Allow root index.html
+!index.html
+
+# Include pnpm lock file
+!pnpm-lock.yaml
