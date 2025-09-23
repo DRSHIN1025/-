@@ -1,27 +1,83 @@
-# See https://help.github.com/articles/ignoring-files/ for more about ignoring files.
+# Dependencies
+node_modules/
+.pnpm
+/.pnp
+.pnp.js
 
-# dependencies
-/node_modules
+# Production build
+.next/
+out/
+build/
+dist/
 
-# next.js
-/.next/
-/out/
+# Environment variables
+.env
+.env.local
+.env.development.local
+.env.test.local
+.env.production.local
 
-# production
-/build
+# IDE
+.vscode/
+.idea/
+*.swp
+*.swo
 
-# debug
+# OS
+.DS_Store
+Thumbs.db
+
+# Logs
+logs
+*.log
 npm-debug.log*
 yarn-debug.log*
 yarn-error.log*
-.pnpm-debug.log*
 
-# env files
-.env*
+# Runtime data
+pids
+*.pid
+*.seed
+*.pid.lock
 
-# vercel
-.vercel
+# Coverage directory used by tools like istanbul
+coverage/
 
-# typescript
-*.tsbuildinfo
-next-env.d.ts
+# User's personal files and folders
+AppData/
+3D Objects/
+Contacts/
+Documents/
+Downloads/
+Favorites/
+Links/
+Music/
+OneDrive/
+Saved Games/
+Searches/
+Videos/
+Desktop/
+Pictures/
+Templates/
+NTUSER.DAT*
+ntuser.*
+.cache/
+.config/
+.cursor/
+.gitconfig
+.lesshst
+.node_repl_history
+.nodemid
+.npmrc
+Muse Hub/
+*.ini
+Google Drive*/
+시작 메뉴/
+Application Data
+Cookies
+Local Settings
+My Documents
+NetHood
+PrintHood
+Recent
+SendTo
