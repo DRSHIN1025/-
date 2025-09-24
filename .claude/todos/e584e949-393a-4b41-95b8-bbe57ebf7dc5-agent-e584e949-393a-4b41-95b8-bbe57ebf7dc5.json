@@ -1,0 +1,27 @@
+[
+  {
+    "content": "V0에서 만든 LEREVENA 사이트 파일 확인",
+    "status": "completed",
+    "activeForm": "V0에서 만든 LEREVENA 사이트 파일 확인 완료"
+  },
+  {
+    "content": "LEREVENA 사이트 파일 복원",
+    "status": "completed",
+    "activeForm": "LEREVENA 사이트 파일 복원 완룼"
+  },
+  {
+    "content": "의존성 설치 및 개발 서버 실행",
+    "status": "completed",
+    "activeForm": "의존성 설치 및 개발 서버 실행 완료"
+  },
+  {
+    "content": "외부 접속을 위한 서버 설정 변경",
+    "status": "in_progress",
+    "activeForm": "외부 접속을 위한 서버 설정 변경 중"
+  },
+  {
+    "content": "GitHub Pages 배포 설정",
+    "status": "pending",
+    "activeForm": "GitHub Pages 배포 설정 중"
+  }
+]

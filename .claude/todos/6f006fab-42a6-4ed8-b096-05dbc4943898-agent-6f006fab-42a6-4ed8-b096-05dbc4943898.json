@@ -1,0 +1,17 @@
+[
+  {
+    "content": "Initialize git repository and push to GitHub",
+    "status": "in_progress",
+    "activeForm": "Initializing git repository and push to GitHub"
+  },
+  {
+    "content": "Set up remote repository connection",
+    "status": "pending",
+    "activeForm": "Setting up remote repository connection"
+  },
+  {
+    "content": "Push all files to GitHub",
+    "status": "pending",
+    "activeForm": "Pushing all files to GitHub"
+  }
+]
