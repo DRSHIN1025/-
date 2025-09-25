@@ -1,0 +1,118 @@
+@import "tailwindcss/base";
+@import "tailwindcss/components";
+@import "tailwindcss/utilities";
+
+:root {
+  /* Updated color palette for LEREVENA luxury brand */
+  --background: #f5f5f0; /* cream white */
+  --foreground: #001f3f; /* deep navy */
+  --card: #ffffff; /* white for product cards */
+  --card-foreground: #4b4b4d; /* charcoal for text */
+  --popover: #ffffff; /* white for popovers */
+  --popover-foreground: #001f3f; /* deep navy for popover text */
+  --primary: #001f3f; /* deep navy for primary buttons */
+  --primary-foreground: #f5f5f0; /* cream white for button text */
+  --secondary: #d9c48a; /* warm gold for accents */
+  --secondary-foreground: #001f3f; /* deep navy for secondary text */
+  --muted: #4b4b4d; /* charcoal for muted text */
+  --muted-foreground: #f5f5f0; /* cream white for muted backgrounds */
+  --accent: #d9c48a; /* warm gold for accents */
+  --accent-foreground: #001f3f; /* deep navy for accent text */
+  --destructive: #ff4d4d; /* red for alerts */
+  --destructive-foreground: #ffffff; /* white for alert text */
+  --border: #e0e0e0; /* light border */
+  --input: #ffffff; /* white for input fields */
+  --ring: #d9c48a; /* warm gold for focus ring */
+  --chart-1: #001f3f; /* deep navy for chart 1 */
+  --chart-2: #d9c48a; /* warm gold for chart 2 */
+  --chart-3: #4b4b4d; /* charcoal for chart 3 */
+  --chart-4: #f5f5f0; /* cream white for chart 4 */
+  --chart-5: #d9c48a; /* warm gold for chart 5 */
+  --radius: 0.5rem; /* subtle rounding for cards */
+  --sidebar: #f5f5f0; /* cream white for sidebar */
+  --sidebar-foreground: #001f3f; /* deep navy for sidebar text */
+  --sidebar-primary: #d9c48a; /* warm gold for primary sidebar elements */
+  --sidebar-primary-foreground: #001f3f; /* deep navy for sidebar primary text */
+  --sidebar-accent: #4b4b4d; /* charcoal for sidebar accents */
+  --sidebar-accent-foreground: #f5f5f0; /* cream white for sidebar accent text */
+  --sidebar-border: #e0e0e0; /* light border for sidebar */
+  --sidebar-ring: #d9c48a; /* warm gold for sidebar focus ring */
+
+  /* 더 어두운 luxury-gold로 대비 개선 */
+  --luxury-navy: #001f3f;
+  --luxury-gold: #b8941f; /* 더 어두운 골드로 변경 */
+  --luxury-cream: #f5f5f0;
+  --luxury-charcoal: #4b4b4d;
+}
+
+.dark {
+  --background: #001f3f;
+  --foreground: #f5f5f0;
+  --card: #001f3f;
+  --card-foreground: #f5f5f0;
+  --popover: #001f3f;
+  --popover-foreground: #f5f5f0;
+  --primary: #d9c48a;
+  --primary-foreground: #001f3f;
+  --secondary: #4b4b4d;
+  --secondary-foreground: #f5f5f0;
+  --muted: #4b4b4d;
+  --muted-foreground: #f5f5f0;
+  --accent: #d9c48a;
+  --accent-foreground: #001f3f;
+  --destructive: #ff4d4d;
+  --destructive-foreground: #ffffff;
+  --border: #4b4b4d;
+  --input: #4b4b4d;
+  --ring: #d9c48a;
+  --chart-1: #d9c48a;
+  --chart-2: #f5f5f0;
+  --chart-3: #4b4b4d;
+  --chart-4: #001f3f;
+  --chart-5: #d9c48a;
+  --sidebar: #001f3f;
+  --sidebar-foreground: #f5f5f0;
+  --sidebar-primary: #d9c48a;
+  --sidebar-primary-foreground: #001f3f;
+  --sidebar-accent: #4b4b4d;
+  --sidebar-accent-foreground: #f5f5f0;
+  --sidebar-border: #4b4b4d;
+  --sidebar-ring: #d9c48a;
+
+  /* 다크모드용 럭셔리 색상 */
+  --luxury-navy: #001f3f;
+  --luxury-gold: #d9c48a; /* 다크모드에서는 밝은 골드 유지 */
+  --luxury-cream: #f5f5f0;
+  --luxury-charcoal: #4b4b4d;
+}
+
+/* TailwindCSS v3 compatible configuration moved to tailwind.config.js */
+
+@layer base {
+  * {
+    @apply border-border outline-ring/50;
+  }
+  body {
+    @apply bg-background text-foreground;
+  }
+}
+
+/* Added custom fonts for luxury typography */
+@import url("https://fonts.googleapis.com/css2?family=Playfair+Display:wght@400;500;600;700&family=Inter:wght@300;400;500;600&display=swap");
+
+.font-serif {
+  font-family: "Playfair Display", serif;
+}
+
+.font-sans {
+  font-family: "Inter", sans-serif;
+}
+
+/* 추가 유틸리티 클래스 */
+.text-balance {
+  text-wrap: balance;
+}
+
+.text-pretty {
+  text-wrap: pretty;
+}
