@@ -1,0 +1,12 @@
+[
+  {
+    "content": "Delete old deploy.yml workflow file",
+    "status": "in_progress",
+    "activeForm": "Deleting old deploy.yml workflow file"
+  },
+  {
+    "content": "Ensure only pages-deploy.yml exists",
+    "status": "pending",
+    "activeForm": "Ensuring only pages-deploy.yml exists"
+  }
+]
