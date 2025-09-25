@@ -97,8 +97,7 @@
   }
 }
 
-/* Added custom fonts for luxury typography */
-@import url("https://fonts.googleapis.com/css2?family=Playfair+Display:wght@400;500;600;700&family=Inter:wght@300;400;500;600&display=swap");
+/* Fonts are loaded via Next.js font optimization in layout.tsx */
 
 .font-serif {
   font-family: "Playfair Display", serif;
