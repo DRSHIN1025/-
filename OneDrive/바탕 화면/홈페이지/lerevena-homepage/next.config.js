@@ -6,7 +6,7 @@ const nextConfig = {
     unoptimized: true
   },
   basePath: process.env.NODE_ENV === 'production' ? '/lerevena' : '',
-  assetPrefix: process.env.NODE_ENV === 'production' ? '/lerevena/' : '',
+  assetPrefix: process.env.NODE_ENV === 'production' ? '/lerevena' : '',
 }
 
 module.exports = nextConfig
